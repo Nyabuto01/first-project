@@ -1,0 +1,82 @@
+.container{
+    margin-top: 30px;
+    background:#ccc;
+    width: 100%;
+    height: 100vh;
+    background-image: url(pic1.jpg);
+    object-fit: contain;
+    
+}
+.box{
+    height: 500px;
+    width: 300px;
+    box-shadow: 0 0 40px 20px rgba(112, 103, 103, 0.26);
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    left: 40%;
+    background-color: #e2e2e2;
+}
+.name{
+    width: 100%;
+    height: 25px;
+    border-radius: 5px;
+    border: solid 1px black;
+
+}
+.deta{
+    width: 100%;
+    height: 25px;
+    border-radius: 5px;
+    border: solid 1px black;
+    text-align: center;
+}
+.head{
+    text-align: center;
+
+}
+.btn{
+    width: 100%;
+    background-color: blue;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    transition: 1s;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none;
+}
+.btn:hover{
+    opacity: 0.7px;
+    transition: 1s;
+    background-color: rgb(54, 136, 190);
+
+}
+.btn:active{
+    background-color: #ccc;
+    color: black;
+}
+.link{
+    text-decoration: none;
+    text-align: center;
+    margin-left: 20px;
+}
+.beta{
+    float: right;
+    margin-top: 20px;
+    margin-right: 30px;
+}
+.home{
+    text-decoration: none;
+    color: #e2e2e2;
+    margin: 40px;
+    font-style: italic;
+    font-size: 20px;
+}
+.image{
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 25px;
+}
